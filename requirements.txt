@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+google-genai
+pandas
+openpyxl
+rapidfuzz
+httpx
+python-dotenv
+python-dateutil
