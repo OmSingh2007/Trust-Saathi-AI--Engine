@@ -166,7 +166,7 @@ def process_image_or_pdf(file_bytes: bytes, mime_type: str) -> dict:
     #   The model sees both and generates a response based on both.
     client = _get_client()
     response = client.models.generate_content(
-        model="gemini-1.5-flash",       # Fast multimodal model
+        model="gemini-3.5-flash",       # Fast multimodal model
         contents=[file_part, EXTRACTION_PROMPT]  # Image + instructions
     )
 
